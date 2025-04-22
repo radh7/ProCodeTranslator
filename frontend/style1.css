@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 8em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+  }
+  
+  h1 span {
+    display: block;
+  }
+  
+  button {
+    margin-top: 60px;
+    padding: 30px 30px;
+    font-size: 2rem;
+    background: #FFF0BD;
+    color: #1f4037;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: opacity 2s ease-in-out;  /* Smooth transition for opacity */
+    opacity: 0;  /* Start with the button hidden */
+  }
+  /* Fade-in effect */
+  button.show {
+        opacity: 1;  /* Fully visible after transition */
+    }
+  
+  button:hover {
+    background: #e0f7ef;
+    transform: scale(1.05);
+  }
+  
+  footer {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    font-size: 2rem;
+    color: #f0f0f0;
+    background-color: #1f4037;
+  }
+  

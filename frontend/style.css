@@ -1,0 +1,85 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FDFBEE;
+    padding: 0px 0px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 75%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:top;
+    justify-content: space-around;
+  }
+  
+  h2 {
+    text-align: left;
+    color: #301b02;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #301b02;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    font-family: monospace;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto 30px auto;
+    padding: 10px 25px;
+    background-color: #acf6cb;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #bed8ea;
+  }
+  
+  SourceSection {
+    transition: opacity 2s ease-in-out;  /* Smooth transition for opacity */
+    opacity: 0;  /* Start with the button hidden */
+  }
+  SourceSection.show {
+    opacity: 1;  /* Fully visible after transition */
+  }
+  
+  footer {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    background-color: #015551;
+  }
+
+  pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: monospace;
+    font-size: 14px;
+    height: fit-content;
+  }

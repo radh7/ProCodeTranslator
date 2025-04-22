@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Java to C# Code Translator</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Prism.js for syntax highlighting -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center; font-size: 3.5rem;">ProCode Translator</h1>
+    <p style="text-align: center; font-weight: 100; font-size: 1.5rem;">Translate your code effortlessly!</p>
+  <div class="container">
+
+    <div class="SourceSection">
+      <h2>Your Java Code:</h2>
+      <textarea id="input" placeholder="Paste your Java code here..."></textarea>
+      <button id="translate-btn">Translate</button>
+    </div>
+    <div class="Result Section">
+      <h3>Translation Result</h3>
+      <pre><code class="language-csharp" id="output"></code></pre>
+    </div>
+  </div>
+
+  <footer style="text-align:center; margin-top: 40px;">&copy; 2025 Radhika | All rights reserved</footer>
+
+  <!-- JS Script -->
+  <script src="/translator.js"></script>
+</body>
+</html>
