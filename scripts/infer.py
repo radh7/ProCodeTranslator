@@ -3,7 +3,7 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 import json
 import re
 
-model_path = "./models/checkpoint-4635"
+model_path = "https://drive.google.com/drive/folders/1SqN3aTw2wJ6ZtslKfBzh2bCjZ4sLUn2o?usp=sharing"
 
 # Load config
 with open("config.json") as f:
