@@ -57,5 +57,6 @@ def translate():
         return jsonify({"error": str(e), "translated_code": ""}), 500
 
 if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
     print("[DEBUG] Starting Flask app...")
     app.run(debug=True)  # Enable Flask's debug mode for detailed error logs
