@@ -1,0 +1,12 @@
+{
+    "model_name": "t5-small",
+    "source_lang": "java",
+    "target_lang": "c#",
+    "max_input_length": 256,
+    "max_output_length": 512,
+    "batch_size": 2,
+    "num_train_epochs": 1,
+    "learning_rate": 5e-4
+  }
+  
+  
