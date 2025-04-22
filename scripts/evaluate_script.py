@@ -10,7 +10,7 @@ from tqdm import tqdm
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 
 # Paths
-model_path = "./models/t5-finetuned"
+model_path = "https://drive.google.com/drive/folders/1SqN3aTw2wJ6ZtslKfBzh2bCjZ4sLUn2o?usp=sharing"
 
 # Load config
 with open("config.json") as f:
